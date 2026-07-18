@@ -10,7 +10,7 @@ interface CardItem {
 }
 
 interface CardProps {
-  cards: CardItem[];
+  cards?: CardItem[];
   onBuy?: () => void;
 }
 

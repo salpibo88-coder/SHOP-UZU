@@ -19,7 +19,11 @@ const items = [
 
 type Product = { name: string; price: string; img: string; category: string };
 
-export default function Drink() {
+interface Props {
+  onBuy?: () => void;
+}
+
+export default function Drink({ onBuy }: Props) {
   const [dark, setDark] = useState(false);
   const [search, setSearch] = useState("");
   const [wishlist, setWishlist] = useState<number[]>([]);

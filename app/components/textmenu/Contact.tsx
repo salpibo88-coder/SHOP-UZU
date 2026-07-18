@@ -69,8 +69,15 @@ export default function Contact() {
   );
 }
 
+interface InputProps {
+  icon: React.ReactNode;
+  placeholder: string;
+  value: string;
+  onChange: (value: string) => void;
+}
+
 // Helper component for cleaner code
-function Input({ icon, placeholder, value, onChange }: any) {
+function Input({ icon, placeholder, value, onChange }: InputProps) {
   return (
     <div className="relative">
       <span className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400">{icon}</span>

@@ -25,13 +25,13 @@ const allItems = [
   { image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400", name: "Espresso", price: "$6", category: "Drink", rating: 4.8, reviews: 445 },
   { image: "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?w=400", name: "Orange Juice", price: "$4", category: "Drink", rating: 4.6, reviews: 312 },
   { image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400", name: "Cocktail", price: "$12", category: "Drink", rating: 4.7, reviews: 189 },
-  { image: "https://images.unsplash.com/photo-1553279768-865429fa0078?w=400", name: "Strawberries", price: "$5", category: "Fruit", rating: 4.8, reviews: 445 },
-  { image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400", name: "Alphonso Mango", price: "$4", category: "Fruit", rating: 4.9, reviews: 189 },
-  { image: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400", name: "Orange", price: "$3", category: "Fruit", rating: 4.6, reviews: 234 },
-  { image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400", name: "Modern Sofa", price: "$850", category: "Sitting", rating: 4.8, reviews: 124 },
-  { image: "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400", name: "Armchair", price: "$420", category: "Sitting", rating: 4.5, reviews: 89 },
-  { image: "https://www.shutterstock.com/image-photo/dashboard-camera-isolated-on-white-600nw-1907935398.jpg", name: "4K Dash Cam", price: "$200", category: "Accessories", rating: 4.8, reviews: 445 },
-  { image: "https://www.shutterstock.com/image-photo/car-phone-holder-isolated-white-600nw-1907935398.jpg", name: "Phone Holder", price: "$25", category: "Accessories", rating: 4.6, reviews: 567 },
+  { image: "https://thumbs.dreamstime.com/b/one-rich-strawberry-fruit-white-isolated-background-35372483.jpg", name: "Strawberries", price: "$5", category: "Fruit", rating: 4.8, reviews: 445 },
+  { image: "https://thumbs.dreamstime.com/b/orange-fruit-isolated-white-background-61947616.jpg", name: "Alphonso Mango", price: "$4", category: "Fruit", rating: 4.9, reviews: 189 },
+  { image: "https://thumbs.dreamstime.com/b/fresh-red-apple-fruit-isolated-white-background-130051566.jpg", name: "Orange", price: "$3", category: "Fruit", rating: 4.6, reviews: 234 },
+  { image: "https://st.depositphotos.com/1500766/2998/i/450/depositphotos_29982189-stock-photo-sofa-furniture-isolated-on-white.jpg", name: "Modern Sofa", price: "$850", category: "Sitting", rating: 4.8, reviews: 124 },
+  { image: "https://png.pngtree.com/thumb_back/fh260/background/20230806/pngtree-clean-white-living-room-with-white-sofa-image_12985535.jpg", name: "Armchair", price: "$420", category: "Sitting", rating: 4.5, reviews: 89 },
+  { image: "https://img.magnific.com/free-photo/cosmetic-products-rose-white-paper-clipboard-isolated-against-white-background_23-2148074025.jpg?semt=ais_hybrid&w=740&q=80", name: "4K Dash Cam", price: "$200", category: "Accessories", rating: 4.8, reviews: 445 },
+  { image: "https://img.magnific.com/premium-photo/perfume-accessories-cosmetics-phone-white-background_392895-452227.jpg?semt=ais_hybrid&w=740&q=80", name: "Phone Holder", price: "$25", category: "Accessories", rating: 4.6, reviews: 567 },
 ];
 
 const categories = ["All", "Car", "Motorbike", "Truck", "Bicycle", "Drink", "Fruit", "Sitting", "Accessories"];
