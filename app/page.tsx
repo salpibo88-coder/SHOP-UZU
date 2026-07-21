@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Loging from "./components/Card/Loging";
 import Formcard from "./components/Card/Formcard";
-import Text from "./components/Card/Text";
+import Text from "./components/Card/Shop";
 import Topic from "./components/Card/Topic";
 import Payment from "./components/Card/Payment";
 import Qr from "./components/Card/Qr";

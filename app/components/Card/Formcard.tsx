@@ -43,7 +43,7 @@ export default function Formcard({ onBuy, onNav, onSideNav, onTranslate }: Props
         <div className=" absolute bottom-0 left-0 right-0 h-0.5 bg-linear-to-r from-yellow-500 via-yellow-400 to-yellow-500 animate-pulse" />
 
         {/* BG video */}
-        <div className="absolute inset-0 z-0">
+        {/* <div className="absolute inset-0 z-0">
           <iframe
             src="https://www.youtube.com/embed/WWJ672iZKNQ?autoplay=1&mute=1&loop=1&playlist=WWJ672iZKNQ&controls=0&modestbranding=1&rel=0&iv_load_policy=3"
             allow="autoplay; encrypted-media"
@@ -51,7 +51,7 @@ export default function Formcard({ onBuy, onNav, onSideNav, onTranslate }: Props
             style={{ border: "none", pointerEvents: "none" }}
             title="Background video"
           />
-        </div>
+        </div> */}
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between relative z-10">
           <a href="#home" className="flex items-center gap-2 sm:gap-3 group"

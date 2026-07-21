@@ -62,7 +62,7 @@ export default function Drink({ onBuy }: Props) {
               
               <div className="flex items-center justify-between mt-auto">
                 <span className="text-[#ff00b3] font-black text-sm">{item.price}</span>
-                <button onClick={() => setBuying({ name: item.name, price: item.price, img: item.img, category: item.category })}
+                <button onClick={() => { setBuying({ name: item.name, price: item.price, img: item.img, category: item.category }); onBuy?.(); }}
                         className="bg-pink-50 text-[#ff00d4] p-2 rounded-lg hover:bg-[#ff00d4] hover:text-white transition-colors">
                   <FiShoppingCart size={16} />
                 </button>

@@ -17,11 +17,11 @@ export const metadata: Metadata = {
   description: "Premium Shopping Store",
   icons: {
     icon: [
-      { url: "/online.jpg", type: "image/png" },
-      { url: "/online.jpg" },
+      { url: "/lo.jpg", type: "image/png" },
+      { url: "/lo.jpg" },
     ],
-    apple: "online.jpg",
-    shortcut: "/online.jpg",
+    apple: "lo.jpg",
+    shortcut: "/lo.jpg",
   },
 };
 
